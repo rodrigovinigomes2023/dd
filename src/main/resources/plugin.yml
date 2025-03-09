@@ -1,0 +1,17 @@
+name: dd
+main: gomes.dd.Main
+version: 1.0
+api-version: 1.20
+commands:
+  setname:
+    description: Muda o nome do jogador.
+    usage: /setname <nome>
+  restaurarNome:
+    description: Restaura o nome original do jogador.
+    usage: /restaurarNome
+  setficha:
+    description: Define um atributo na ficha do jogador.
+    usage: /setficha <atributo> <valor>
+  verficha:
+    description: Exibe a ficha do jogador.
+    usage: /verficha
